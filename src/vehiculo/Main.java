@@ -6,7 +6,10 @@ package vehiculo;
  * @author 
  */
 public class Main {
-    
+    /**
+     * 
+     * @param args 
+     */
       public static void main(String[] args) {
         VehiculoXXX2223 miVehiculoXXX2223;
         int stockActual;
@@ -16,7 +19,11 @@ public class Main {
         stockActual = miVehiculoXXX2223.obtenerStock();
         System.out.println("El stock actual es "+ stockActual );
     }
-
+      /**
+       * 
+       * @param miVehiculoXXX2223
+       * @param par1 
+       */
     public static void operativaVehiculoXXX2223(VehiculoXXX2223 miVehiculoXXX2223, int par1) {
         
         try
